@@ -8,7 +8,7 @@ time1 = []
 time2 = []
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_alt2.xml")
 vc = cv2.VideoCapture(0)
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__)#template_folder='templates'
 
 def t():
     time.sleep(1)
